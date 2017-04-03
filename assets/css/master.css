@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Fresh Marker";
+    src: url('freshmarker.ttf');
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.navbar {
+    background-color: rgb(45,112,150);
+    color: white;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav > li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    color: black!important;
+    font-family: "Fresh Marker";
+}
+
+.navbar-nav > li > a.active {
+    color: white!important;
+}
+
+.navbar-brand > img {
+    height: 50px;
+    margin-top: -15px;
+}
+
+.footer {
+    background-color: rgb(45,112,150);
+    color: white!important;
+}
+
+.footer > div > p {
+    color: white!important;
+    font-family: "Fresh Marker";
+}
