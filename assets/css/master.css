@@ -12,6 +12,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+
 }
 .footer {
     position: absolute;
@@ -33,7 +34,6 @@ body > .container {
 
     padding: 60px 15px 0;
 
-
 }
 .container .text-muted {
     margin: 20px 0;
@@ -51,6 +51,7 @@ code {
 .navbar {
     background-color: rgb(45,112,150);
     color: white;
+    
 }
 
 .navbar-nav {
@@ -84,4 +85,5 @@ code {
     color: white!important;
     font-family: "Fresh Marker";
 }
+
 
