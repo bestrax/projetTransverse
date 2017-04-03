@@ -1,0 +1,51 @@
+
+
+#menu ul {
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ text-align:center;
+  margin-top: -30px;
+ }
+
+ .men {
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ text-align:center;
+ margin-top: -30px;
+
+ }
+#menu li {
+ float:left;
+ margin:auto;
+ padding:0;
+ background-color:rgb(45,112,150);
+ }
+#menu li a {
+ display:block;
+ width:100px;
+ color:black;
+ text-decoration:none;
+ padding:5px;
+font-family: "Fresh Marker";
+ }
+#menu li a:hover {
+ color:white;
+ }
+
+ #menu ul li ul {
+ display:none;
+ }
+
+ #menu ul li:hover ul {
+ display:block;
+
+ }
+#menu li:hover ul li {
+ float:none;
+ }
+
+ #menu li ul {
+ position:absolute;
+ }
