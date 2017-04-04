@@ -1,32 +1,22 @@
+
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="utf-8">
+     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>NewClass</title>
+    <title>Les étudiants</title>
 
 
     <link href="assets/lib/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="assets/css/master.css" rel="stylesheet">
+    <link href="assets/css/master.css" rel="stylesheet">
+    <link href="assets/css/etudiant.css" rel="stylesheet">
     <link href="assets/css/index.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
-
 <body>
-<p>
-    
-    <img src="assets/img/scylla3.jpg" alt="Photo Scylla" />
-</p>
-
-
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -81,8 +71,47 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
 <script src="assets/lib/js/bootstrap.min.js"></script>
+<div id="container">
 
-   
+    <div id="login">
+
+        <div class="head">
+            Qui cherches tu ? 
+        </div>
+
+        <div class="content">
+            <form method="post" action="index.html">
+
+
+                <div class="form-control">
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom"/>
+                </div>
+
+                <div class="form-control">
+                    <label for="prenom">Prenom</label>
+                    <input type="text" name="prenom" id="prenom" />
+                </div>
+                 <div class="form-control">
+                    <label for="promo">Promo</label>
+                    <input type="text" name="promo" id="promo" />
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit" class="button btn-lg">Valider <i class="fa fa-arrow-right"></i></button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+
+</div>
+
+<p class="fox" >
+<img src="assets/img/images.jpg" alt="Photo Scylla"  />
+</p>
 </body>
 </html>
 

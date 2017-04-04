@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>NewClass</title>
+    <title>Soirées</title>
 
 
     <link href="assets/lib/css/bootstrap.min.css" rel="stylesheet">
-
+ <link href="assets/css/soiree.css" rel="stylesheet">
     <link href="assets/css/master.css" rel="stylesheet">
     <link href="assets/css/index.css" rel="stylesheet">
 
@@ -23,7 +23,9 @@
 <body>
 <p>
     
-    <img src="assets/img/scylla3.jpg" alt="Photo Scylla" />
+    <img src="assets/img/cup.jpg"  alt="Photo Soiree" />
+
+  
 </p>
 
 
@@ -56,7 +58,7 @@
                               <li><a href="#">Evenements</a></li>
                               <li><a href="#">Planning des assos</a></li>
                               <li><a href="#">FAQ</a></li>
-                              <li><a href="soiree.html">Soirees</a></li>
+                              <li><a href="#">Soirees</a></li>
                             </ul>
                  </li>
      
@@ -69,7 +71,26 @@
     </div>
 </nav>
 
-
+<form>
+<ul class="form-style-1">
+    <li><label>Nom Prénom <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="Prénom" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Nom" /></li>
+    <li>
+        <label>Email <span class="required">*</span></label>
+        <input type="email" name="field3" class="field-long" />
+    </li>
+    <li>Soirée d'intégration </label>
+        <select name="field4" class="field-select">
+        <option value="Advertise">15 euors + une conso (etudiant)</option>
+        <option value="Partnership">15 euros ( autres )</option>
+     
+        </select>
+    </li>
+ 
+    <li>
+        <input type="submit" value="Submit" />
+    </li>
+</ul>
+</form>
 
 <footer class="footer">
     <div class="container">

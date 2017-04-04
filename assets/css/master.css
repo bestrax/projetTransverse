@@ -71,6 +71,10 @@ code {
     color: white!important;
 }
 
+.menu> li > a.active {
+    color: white!important;
+}
+
 .navbar-brand > img {
     height: 50px;
     margin-top: -15px;

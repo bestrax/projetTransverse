@@ -36,7 +36,7 @@
 }
 
 
-#login:hover, #register:hover {
+#login2:hover, #register2:hover {
     box-shadow: 0 10px 30px #ccc;
 }
 
@@ -83,12 +83,6 @@
 {
 
     margin-left: 1000px;
-    
-    background-image: url(assets/img/fleche.png);
+
 }
 
-.fleche:hover
-{
-    background-image: url(assets/img/fleche.png);
-    color : rgb(45,112,150);
-}
