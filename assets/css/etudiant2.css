@@ -1,9 +1,10 @@
+
+
 body
 {
 
     background-image : url("scyllaf.png");
 }
-
 
 
 
@@ -13,13 +14,16 @@ body
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 #login, #register {
-    width: 33vw;
+    width: 20vw;
     margin : 5vh;
     padding: 20px;
-    
+    height: 
+    border-radius: 3px;
+    box-shadow: 0 1px 4px #ccc;
   /*border: 1px solid #fff */
 }
 
@@ -29,15 +33,17 @@ body
     }
 }
 
-
+#login:hover, #register:hover {
+    box-shadow: 0 10px 30px #ccc;
+}
 
 .head {
-
+    background-color:white;
     width: calc(100% - 40px);
     padding: 20px;
+    min-height: 15em;
     font-size: large;
     font-weight: bold;
-    text-transform: uppercase;
     color: black;
     display: flex;
     flex-direction: column;
@@ -45,7 +51,8 @@ body
     align-items: center;
     text-align: center;
     margin-left: 20px;
-    font-family: "Fresh Marker";
+    font-family: sans-serif;
+
 }
 
 .content {
@@ -57,28 +64,10 @@ form {
     margin-bottom: 0;
 }
 
-input {
-    min-height: 2em;
-    font-size: 14px;
-    border-radius: 4px;
-    border: 1px solid #E0E0E0;
-    padding: 5px;
-    width: 50%;
-    display: inline-block;
-}
 
-label {
-    font-size: small;
-    font-weight: bold;
-    padding: 5px;
-    width: 30%;
-    display: inline-block;
-    text-align: right;
-}
+.couleur{
 
 
-.form-control
-{
-
-    height: 60px;
+    color: rgb(45,112,150);
+    font-family: "Fresh Marker";
 }
