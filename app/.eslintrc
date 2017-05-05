@@ -1,0 +1,21 @@
+{
+  "extends": ["airbnb"],
+  "plugins": [
+    "react"
+  ],
+  "parserOptions":{
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules":{
+    "eqeqeq": 0,
+    "max-len": 0,
+    "no-restricted-syntax": 0,
+    "no-param-reassign": 0,
+    "react/jsx-no-bind": 0,
+  },
+  "globals": {
+    "$": true
+  }
+}

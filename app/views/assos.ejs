@@ -1,0 +1,13 @@
+<link href="/assets/css/assosInternationales.css" rel="stylesheet">
+
+<% assos.forEach(function(asso){ %>
+    <div class="bouton">
+        <p>
+            <a href="/assos/<%= asso.id %>">
+                <img src="/assets/img/logoIweek.png"><br>
+                <br>
+                <%= asso.name %>
+            </a>
+        </p>
+    </div>
+<% }) %>

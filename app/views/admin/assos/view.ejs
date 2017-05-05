@@ -1,0 +1,76 @@
+<link href="/assets/css/asso.css" rel="stylesheet">
+
+<div class="asso">
+    <div class="row text-center">
+        <h1><%= asso.name %></h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <img class="img-size" src="/media/<%= asso.image %>">
+        </div>
+        <div class="col-md-9">
+
+            <div class="row">
+                <p>
+                    <b>Description :</b> <%- asso.description.replace(/\r\n/g, '<br/>') %>
+                </p><br>
+                <p>
+                    <b>Contact :</b> <%= asso.contact %>
+                </p>
+            </div>
+
+            <div class="row margin-top">
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <b>Nos événements :</b>
+                        <a href="/admin/assos/<%= asso.id %>/event/add" class="btn btn-success btn-xs pull-right">Ajouter évènement</a>
+                    </div>
+                    <br/>
+                    <div class="row">
+                        <ul>
+                            <% asso.events.forEach(function(event){ %>
+                            <li>
+                                <b><%= event.date %></b> <%= event.name %>
+                                <a href="/admin/assos/<%= asso.id %>/event/delete/<%= event.id %>">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </li>
+                            <% }) %>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <b>Nos membres :</b>
+                        <a href="/admin/assos/<%= asso.id %>/add" class="btn btn-success btn-xs pull-right">Ajouter membre</a>
+                    </div>
+
+                    <br/>
+
+                    <div class="row">
+                        <ul>
+                            <% asso.members.forEach(function(member){ %>
+                            <li>
+                                <a href="/student/<%= member.id %>">
+                                    <%= member.firstName + ' ' + member.lastName %>
+                                </a>
+                                <a href="/admin/assos/<%= asso.id %>/delete/<%= member.id %>">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </li>
+                            <% }) %>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+

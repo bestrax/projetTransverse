@@ -1,0 +1,39 @@
+<link href="/assets/css/login.css" rel="stylesheet">
+
+<div id="login">
+
+    <div class="head">
+        Profil
+    </div>
+
+    <div class="content">
+        <form method="post" action="#">
+
+            <% if (typeof err != 'undefined') { %>
+            <div class="alert alert-danger"><%= err %></div>
+            <% } %>
+
+            <div>
+                <label for="firstName">Prénom</label>
+                <input class="form-control" type="text" name="firstName" id="firstName" value="<%= user.firstName %>"/>
+            </div>
+
+            <div>
+                <label for="lastName">Nom</label>
+                <input class="form-control" type="text" name="lastName" id="lastName" value="<%= user.lastName %>"/>
+            </div>
+
+            <div>
+                <label for="mail">Mail</label>
+                <input class="form-control" type="email" name="mail" id="mail" value="<%= user.mail %>"/>
+            </div>
+
+            <div>
+                <label for="username">Identifiant</label>
+                <input class="form-control" type="text" name="username" id="username" value="<%= user.username %>"/>
+            </div>
+
+            <button type="submit" class="btn btn-success pull-right">Modifier</button>
+    </div>
+
+</div>

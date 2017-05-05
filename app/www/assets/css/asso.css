@@ -1,0 +1,29 @@
+.asso {
+    background-color: rgb(45,112,150);
+    width:80vw;
+    min-height: 100px;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: "Fresh Marker";
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.img-size {
+    width: 100%;
+    max-height: 100%;
+}
+
+.margin-top {
+    margin-top: 5vh;
+    padding-right: 30px;
+}

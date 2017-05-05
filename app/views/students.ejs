@@ -1,0 +1,44 @@
+<link href="/assets/css/students.css" rel="stylesheet">
+
+<div id="login">
+
+    <div class="head">
+        Liste des étudiants
+    </div>
+
+    <div class="content">
+
+        <% if (users.length > 0) { %>
+
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Prénom</th>
+                <th>Nom</th>
+                <th>Promo</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% users.forEach(function(user){ %>
+            <a href="">
+                <tr onclick="location.href=location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '')+'/student/<%= user.id %>';">
+
+                    <td><%= user.firstName %></td>
+                    <td><%= user.lastName %></td>
+                    <td><%= user.promo %></td>
+
+                </tr>
+            </a>
+            <% }) %>
+            </tbody>
+        </table>
+        <% } else { %>
+        <div class="bs-component">
+            <div class="alert alert-dismissible alert-warning">
+                <p>Pas d'utilisateurs pour le moment.</p>
+            </div>
+        </div>
+        <% } %>
+    </div>
+
+</div>

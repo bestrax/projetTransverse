@@ -1,0 +1,14 @@
+body {
+    background: url('../img/scylla.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+}
+
+ #welcome {
+     font-family: "Fresh Marker";
+     font-size: 10em;
+     color: white;
+ }

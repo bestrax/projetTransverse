@@ -1,0 +1,49 @@
+<link href="/assets/css/login.css" rel="stylesheet">
+
+<div id="login">
+
+    <div class="head">
+        Ajout / Modification d'une association
+    </div>
+
+    <div class="content">
+        <form method="post" action="#" enctype="multipart/form-data">
+
+            <% if (typeof err != 'undefined') { %>
+            <div class="alert alert-danger"><%= err %></div>
+            <% } %>
+
+            <div>
+                <label for="name">Nom</label>
+                <input class="form-control" type="text" name="name" id="name" value="<%= typeof form.name == 'undefined' ? '' : form.name %>"/>
+            </div>
+
+            <div>
+                <label for="contact">Contact</label>
+                <input class="form-control" type="email" name="contact" id="contact" value="<%= typeof form.contact == 'undefined' ? '' : form.contact %>"/>
+            </div>
+
+            <div>
+                <label for="description">Description</label>
+                <textarea class="form-control" type="text" name="description" id="description"><%= typeof form.description == 'undefined' ? '' : form.description %></textarea>
+            </div>
+
+            <br/>
+
+            <div>
+                <label for="inputLogo" class="col-md-2 control-label">Image</label>
+                <div class="col-md-10">
+                    <input id="inputLogo" name="inputLogo" type="file">
+
+                    <% if (form.image) { %>
+                    <img class="col-md-12" src="/<%= form.image %>"/>
+                    <% } else { %>
+                    <% } %>
+                </div>
+                <span class="material-input"></span>
+            </div>
+
+            <button type="submit" class="btn btn-success pull-right">Ajouter</button>
+    </div>
+
+</div>

@@ -1,0 +1,64 @@
+<link href="/assets/css/asso.css" rel="stylesheet">
+
+<div class="asso">
+    <div class="row text-center">
+        <h1><%= asso.name %></h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <img src="/assets/img/logoIweek.png">
+        </div>
+        <div class="col-md-9">
+            <p>
+                <b>Description :</b> <%- asso.description.replace(/\r\n/g, '<br/>') %>
+            </p><br>
+
+            <p>
+                <b>Contact :</b> <%= asso.contact %>
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-3 col-md-offset-3">
+            <div class="row">
+                <b>Nos événements :</b>
+            </div>
+            <br/>
+            <div class="row">
+                <ul>
+                    <% asso.events.forEach(function(event){ %>
+                    <li>
+                        <b><%= event.date %></b> <%= event.name %>
+                    </li>
+                    <% }) %>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-md-offset-2">
+            <div class="row">
+                <b>Nos membres :</b>
+            </div>
+
+            <br/>
+
+            <div class="row">
+                <ul>
+                    <% asso.members.forEach(function(member){ %>
+                        <li>
+                            <a href="/student/<%= member.id %>">
+                                <%= member.firstName + ' ' + member.lastName %>
+                            </a>
+                        </li>
+                    <% }) %>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+

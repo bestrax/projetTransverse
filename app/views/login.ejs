@@ -1,0 +1,29 @@
+<link href="/assets/css/login.css" rel="stylesheet">
+
+<div id="login">
+
+    <div class="head">
+        Connecte toi !
+    </div>
+
+    <div class="content">
+        <form method="post" action="#">
+
+            <% if (typeof err != 'undefined') { %>
+            <div class="alert alert-danger">Mauvais couple d'identifiants</div>
+            <% } %>
+
+            <div>
+                <label for="username">Identifiant</label>
+                <input class="form-control" type="text" name="username" id="username"/>
+            </div>
+
+            <div>
+                <label for="password">Mot de passe</label>
+                <input class="form-control" type="password" name="password" id="password"/>
+            </div>
+
+            <button type="submit" class="btn btn-success pull-right">Connexion</button>
+    </div>
+
+</div>

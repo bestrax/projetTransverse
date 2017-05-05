@@ -1,0 +1,51 @@
+<link href="/assets/css/students.css" rel="stylesheet">
+
+<div id="login">
+
+    <div class="head">
+        Liste des associations
+    </div>
+
+    <div class="row text-center">
+        <a href="/admin/assos/add" class="btn btn-success">Ajouter</a>
+    </div>
+
+    <div class="content">
+
+        <% if (assos.length > 0) { %>
+
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Nom</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <% assos.forEach(function(asso){ %>
+                <tr>
+                    <td onclick="location.href=location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '')+'/admin/assos/<%= asso.id %>';"><%= asso.name %></td>
+                    <td>
+                        <span class="pull-right no-decoration">
+                            <a href="/admin/assos/edit/<%= asso.id %>" class="margin-right">
+                                <i class="fa fa-pencil"></i>
+                            </a>
+                            <a href="/admin/assos/delete/<%= asso.id %>">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </span>
+                    </td>
+                </tr>
+            <% }) %>
+            </tbody>
+        </table>
+        <% } else { %>
+        <div class="bs-component">
+            <div class="alert alert-dismissible alert-warning">
+                <p>Pas d'associations pour le moment.</p>
+            </div>
+        </div>
+        <% } %>
+    </div>
+
+</div>

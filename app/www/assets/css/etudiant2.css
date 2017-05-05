@@ -1,0 +1,41 @@
+#login, #register {
+    margin : 5vh;
+    padding: 20px;
+}
+
+#login, #register {
+    width: 66vw;
+}
+
+.head {
+    background-color:white;
+    width: calc(100% - 40px);
+    padding: 20px;
+    min-height: 15em;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    font-family: sans-serif;
+
+}
+
+.content {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+
+.couleur{
+    color: rgb(45,112,150);
+    font-family: "roboto";
+}

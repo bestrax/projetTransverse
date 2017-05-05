@@ -1,0 +1,29 @@
+<link href="/assets/css/login.css" rel="stylesheet">
+
+<div id="login">
+
+    <div class="head">
+        Ajout / Modification d'un event
+    </div>
+
+    <div class="content">
+        <form method="post" action="#">
+
+            <% if (typeof err != 'undefined') { %>
+                <div class="alert alert-danger"><%= err %></div>
+            <% } %>
+
+            <div>
+                <label for="name">Nom</label>
+                <input class="form-control" type="text" name="name" id="name" value="<%= typeof form.name == 'undefined' ? '' : form.name %>"/>
+            </div>
+
+            <div>
+                <label for="date">Date (au format JJ/MM/AAAA)</label>
+                <input class="form-control" type="text" name="date" id="date" value="<%= typeof form.date == 'undefined' ? '' : form.date %>"/>
+            </div>
+
+            <button type="submit" class="btn btn-success pull-right">Ajouter</button>
+    </div>
+
+</div>
