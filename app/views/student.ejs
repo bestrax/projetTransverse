@@ -3,15 +3,23 @@
 <div id="login">
 
     <div class="head">
-        <p> <%= user.firstName + ' ' + user.lastName %></p>
-        <p><img src="/assets/img/lana2.png" alt="Photo Scylla"  /></p>
-        <p><span class= "couleur">Email :</span> <%= user.mail %></p>
-        <p><span class ="couleur">Promo :</span>  <%= user.promo %></p>
-        <p><span class ="couleur">Majeur :</span>  <%= user.majeur %></p>
-        <p><span class ="couleur">Association :</span>  A faire </p>
-        <p><span class ="couleur">Immersion :</span>  A faire </p>
-
-
+        <% if (user != undefined && user.id == show.id) { %>
+            <a href="/profile/" class="btn btn-success pull-right">Modifier</a>
+        <% } %>
+        <p> <%= show.firstName + ' ' + show.lastName %></p>
+        <p><span class= "couleur">Email :</span> <%= show.mail %></p>
+        <p><span class ="couleur">Promo :</span>  <%= show.promo %></p>
+        <p><span class ="couleur">Majeur :</span>  <%= show.majeur %></p>
+        <p><span class ="couleur">Association :</span></p>
+        <div class="row">
+            <ul>
+                <% show.assos.forEach(function(asso){ %>
+                <li>
+                    <%= asso.name %>
+                </li>
+                <% }) %>
+            </ul>
+        </div>
     </div>
 
 </div>

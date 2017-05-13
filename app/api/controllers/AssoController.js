@@ -12,7 +12,7 @@ module.exports = {
         return res.redirect('/');
       }
 
-      return res.view('assos', {assos: assos});
+      return res.view('assos', {assos: assos, user: req.user});
     });
   },
 
@@ -22,7 +22,7 @@ module.exports = {
         return res.redirect('/assos');
       }
 
-      return res.view('assoView', {asso: asso});
+      return res.view('assoView', {asso: asso, user: req.user});
     });
   },
 
@@ -32,7 +32,7 @@ module.exports = {
         return res.redirect('/admin');
       }
 
-      return res.view('admin/assos/list', {assos: assos});
+      return res.view('admin/assos/list', {assos: assos, user: req.user});
     });
   },
 
@@ -40,7 +40,7 @@ module.exports = {
     if (req.method === 'POST') {
       Asso.create(req.body, function (err, created) {
         if ((err) || (!created)) {
-          return res.view('admin/assos/add', {err: err, form: ''});
+          return res.view('admin/assos/add', {err: err, form: '', user: req.user});
         }
 
         req.file('inputLogo').upload({
@@ -49,13 +49,13 @@ module.exports = {
           if (err) {
             Asso.destroy({id: created.id}).exec(function () {
             });
-            return res.view('admin/assos/add', {err: err, form: req.body});
+            return res.view('admin/assos/add', {err: err, form: req.body, user: req.user});
           }
 
           if (files.length === 0) {
             Asso.destroy({id: created.id}).exec(function () {
             });
-            return res.view('admin/assos/add', {err: 'Aucun logo n\'a été uploadé', form: req.body});
+            return res.view('admin/assos/add', {err: 'Aucun logo n\'a été uploadé', form: req.body, user: req.user});
           }
 
           Media.create({
@@ -63,7 +63,7 @@ module.exports = {
           }).exec(function (err, newFile) {
             if (err) {
               Asso.destroy({id: created.id}).exec(function(){});
-              return res.view('admin/assos/add', {err: err, form: req.body});
+              return res.view('admin/assos/add', {err: err, form: req.body, user: req.user});
             }
 
             Asso.update(created.id, {
@@ -72,7 +72,7 @@ module.exports = {
               if (err){
                 Asso.destroy({id: created.id}).exec(function(){});
                 Media.destroy({id: newFile.id}).exec(function(){});
-                return res.view('admin/assos/add', { err: err, form: req.body});
+                return res.view('admin/assos/add', { err: err, form: req.body, user: req.user});
               }
 
               res.redirect('/admin/assos');
@@ -95,13 +95,13 @@ module.exports = {
         maxBytes: 5000000
       },function whenDone(err, files) {
         if (err) {
-          return res.view('admin/assos/add', {err: err, form: req.body});
+          return res.view('admin/assos/add', {err: err, form: req.body, user: req.user});
         }
 
         if (files.length === 0) {
           Asso.update({id: req.param('associationId')}, req.body, function (err, user) {
             if ((err) || (!user)) {
-              return res.view('admin/assos/add', {err: err, form: ''});
+              return res.view('admin/assos/add', {err: err, form: '', user: req.user});
             }
 
             res.redirect('/admin/assos');
@@ -111,7 +111,7 @@ module.exports = {
             name: files[0].fd
           }).exec(function (err, newFile) {
             if (err) {
-              return res.view('admin/assos/add', {err: err, form: req.body});
+              return res.view('admin/assos/add', {err: err, form: req.body, user: req.user});
             }
 
             req.body.image = newFile;
@@ -119,7 +119,7 @@ module.exports = {
               if (err){
                 Asso.destroy({id: created.id}).exec(function(){});
                 Media.destroy({id: newFile.id}).exec(function(){});
-                return res.view('admin/assos/add', { err: err, form: req.body});
+                return res.view('admin/assos/add', { err: err, form: req.body, user: req.user});
               }
 
               res.redirect('/admin/assos');
@@ -137,7 +137,7 @@ module.exports = {
           return res.redirect('/admin/assos');
         }
 
-        return res.view('admin/assos/add', {form: asso});
+        return res.view('admin/assos/add', {form: asso, user: req.user});
       });
     }
   },
@@ -148,7 +148,7 @@ module.exports = {
         return res.redirect('/admin/assos');
       }
 
-      return res.view('admin/assos/view', {asso: asso});
+      return res.view('admin/assos/view', {asso: asso, user: req.user});
     });
   },
 
@@ -185,7 +185,7 @@ module.exports = {
 
           User.update({id: req.param('userId')}, user, function (err) {
             if ((err)) {
-              return res.view('admin/assos', {});
+              return res.view('admin/assos', {user: req.user});
             }
 
             res.redirect('/admin/assos/'+ asso.id);
@@ -201,7 +201,7 @@ module.exports = {
           return res.redirect('/');
         }
 
-        return res.view('admin/assos/addStudent', {associationId: req.param('associationId'), users: users});
+        return res.view('admin/assos/addStudent', {associationId: req.param('associationId'), users: users, user: req.user});
       });
     }
   },
@@ -221,7 +221,7 @@ module.exports = {
 
         User.update({id: req.param('userId')}, user, function (err) {
           if ((err)) {
-            return res.view('admin/assos', {});
+            return res.view('admin/assos', {user: req.user});
           }
 
           return res.redirect('/admin/assos/'+req.param('associationId'));

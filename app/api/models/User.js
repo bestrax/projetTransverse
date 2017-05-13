@@ -31,6 +31,14 @@ module.exports = {
       type: "string",
       required: true
     },
+    promo: {
+      type: "string",
+      defaultsTo: '',
+    },
+    majeur: {
+      type: "string",
+      defaultsTo: '',
+    },
     idFacebook: {
       type: "string"
     },
@@ -56,6 +64,11 @@ module.exports = {
       collection: 'asso',
       via: 'members'
     },
+    is_admin: {
+      type: 'boolean',
+      defaultsTo: false,
+    },
+
     // Delete the password from data
     toJSON: function() {
       var obj = this.toObject();

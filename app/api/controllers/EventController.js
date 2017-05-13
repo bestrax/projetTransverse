@@ -11,13 +11,13 @@ module.exports = {
     if (req.method === 'POST') {
       Asso.findOne({id: req.param('associationId')}, function(err, asso){
         if (err || !asso)
-          return res.view('admin/assos/addEvent', {err: err, form: req.body});
+          return res.view('admin/assos/addEvent', {err: err, form: req.body, user: req.user});
 
         req.body.asso = asso;
 
         Event.create(req.body, function (err, user) {
           if ((err) || (!user)) {
-            return res.view('admin/assos/addEvent', {err: err, form: req.body});
+            return res.view('admin/assos/addEvent', {err: err, form: req.body, user: req.user});
           }
 
           res.redirect('/admin/assos/' + req.param('associationId'));
@@ -26,7 +26,7 @@ module.exports = {
       });
     }
     else
-      return res.view('admin/assos/addEvent', {form: ''});
+      return res.view('admin/assos/addEvent', {form: '', user: req.user});
   },
 
   admin_delete: function(req, res) {

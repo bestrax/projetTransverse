@@ -33,7 +33,8 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    view: 'homepage',
+    controller: 'UserController',
+    action: 'homepage',
     locals: {
       layout: 'layout'
     }
@@ -42,6 +43,14 @@ module.exports.routes = {
   '/login': {
     controller: 'UserController',
     action: 'front_login',
+    locals: {
+      layout: 'layout'
+    }
+  },
+
+  '/logout': {
+    controller: 'UserController',
+    action: 'front_logout',
     locals: {
       layout: 'layout'
     }

@@ -2,181 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb8e3a0-df33-47bb-a53d-65b22b96b257" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/controllers/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/models/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/services/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/templates/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/images/clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/images/handshake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/images/moneyBox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/images/scylla.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/images/wall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/AssosF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/scyllaf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/bibou.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/cup.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/cup2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/fb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/fleche2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/fox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/images.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/koko.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/lana.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/lana2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/linkedin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/login.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/login2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/logoAsian.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/logoEfreiInter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/logoInfitah.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/logoIweek.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/mel2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/scylla.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/scylla3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/img/scylla4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/controllers/AssoController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/controllers/EventController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/controllers/MediaController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/controllers/UserController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/models/Asso.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/models/Event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/models/Media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/models/User.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/policies/authentificated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/policies/sessionAuth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/responses/badRequest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/responses/created.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/responses/forbidden.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/responses/notFound.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/responses/ok.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/responses/serverError.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/api/services/passport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/js/dependencies/sails.io.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/styles/importer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/blueprints.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/connections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/cors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/csrf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/env/development.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/env/production.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/globals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/i18n.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/locales/_README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/locales/de.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/locales/en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/locales/es.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/locales/fr.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/log.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/models.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/passport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/policies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/session.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/sockets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/views.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/containers/HomeContainer/HomeContainer.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/containers/HomeContainer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/containers/layout/ContentContainer/ContentContainer.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/containers/layout/ContentContainer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/containers/layout/FooterContainer/FooterContainer.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/containers/layout/FooterContainer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/containers/layout/MainContainer/MainContainer.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/containers/layout/MainContainer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/containers/layout/NavBarContainer/NavBarContainer.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/containers/layout/NavBarContainer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/style/fonts/freshmarker.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/front-app/style/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lib/parts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/config/clean.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/config/coffee.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/config/concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/config/copy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/config/cssmin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/config/jst.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/config/less.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/config/sails-linker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/config/sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/config/uglify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/config/watch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/pipeline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/register/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/register/buildProd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/register/compileAssets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/register/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/register/linkAssets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/register/linkAssetsBuild.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/register/linkAssetsBuildProd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/register/prod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks/register/syncAssets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/403.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/404.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/500.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/assos/add.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/assos/addEvent.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/assos/addStudent.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/assos/list.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/assos/view.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/assoView.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/assos.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/homepage.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layout.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/login.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/profile.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/register.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/student.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/students.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/asso.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/assos.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/assosInternationales.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/assosIweek.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/bienvenue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/etudiant.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/etudiant2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/freshmarker.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/master.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/soiree.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/students.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/css/team.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/www/assets/lib/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/api/controllers/AssoController.js" afterPath="$PROJECT_DIR$/app/api/controllers/AssoController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/api/controllers/EventController.js" afterPath="$PROJECT_DIR$/app/api/controllers/EventController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/api/controllers/UserController.js" afterPath="$PROJECT_DIR$/app/api/controllers/UserController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/api/models/User.js" afterPath="$PROJECT_DIR$/app/api/models/User.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routes.js" afterPath="$PROJECT_DIR$/app/config/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/assoView.ejs" afterPath="$PROJECT_DIR$/app/views/assoView.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/assos.ejs" afterPath="$PROJECT_DIR$/app/views/assos.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layout.ejs" afterPath="$PROJECT_DIR$/app/views/layout.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/profile.ejs" afterPath="$PROJECT_DIR$/app/views/profile.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/student.ejs" afterPath="$PROJECT_DIR$/app/views/student.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/www/assets/css/assosInternationales.css" afterPath="$PROJECT_DIR$/app/www/assets/css/assosInternationales.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/www/assets/css/etudiant2.css" afterPath="$PROJECT_DIR$/app/www/assets/css/etudiant2.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -192,81 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="add.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/assos/add.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="91" column="19" lean-forward="false" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AssoController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/api/controllers/AssoController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="97" column="73" lean-forward="false" selection-start-line="97" selection-start-column="73" selection-end-line="97" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediaController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/api/controllers/MediaController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Asso.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/api/models/Asso.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="asso.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/www/assets/css/asso.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assoView.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/assoView.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="53" column="32" lean-forward="false" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/assos/list.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="47" />
+            <state relative-caret-position="435">
+              <caret line="29" column="78" lean-forward="false" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -275,8 +43,38 @@
       <file leaf-file-name="view.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/assos/view.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="135">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assoView.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/assoView.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asso.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/www/assets/css/asso.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assos.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/assos.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -288,14 +86,15 @@
     <findStrings>
       <find>class</find>
       <find>foor</find>
-      <find>user</find>
-      <find>bastien</find>
       <find>contianer</find>
       <find>supprimer</find>
       <find>console</find>
+      <find>user</find>
+      <find>bastien</find>
     </findStrings>
     <replaceStrings>
       <replace>className</replace>
+      <replace>show</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -331,34 +130,35 @@
         <option value="$PROJECT_DIR$/app/api/services/passport.js" />
         <option value="$PROJECT_DIR$/app/views/login.ejs" />
         <option value="$PROJECT_DIR$/app/views/homepage.ejs" />
-        <option value="$PROJECT_DIR$/app/views/profile.ejs" />
         <option value="$PROJECT_DIR$/app/www/assets/css/students.css" />
-        <option value="$PROJECT_DIR$/app/api/controllers/UserController.js" />
-        <option value="$PROJECT_DIR$/app/www/assets/css/etudiant2.css" />
-        <option value="$PROJECT_DIR$/app/views/student.ejs" />
         <option value="$PROJECT_DIR$/app/views/students.ejs" />
         <option value="$PROJECT_DIR$/app/views/admin/asso/list.ejs" />
         <option value="$PROJECT_DIR$/app/views/admin/asso/add.ejs" />
         <option value="$PROJECT_DIR$/app/front-app/style/style.scss" />
-        <option value="$PROJECT_DIR$/app/api/models/User.js" />
         <option value="$PROJECT_DIR$/app/views/admin/assos/addStudent.ejs" />
-        <option value="$PROJECT_DIR$/app/views/layout.ejs" />
         <option value="$PROJECT_DIR$/app/api/models/Event.js" />
-        <option value="$PROJECT_DIR$/app/api/controllers/EventController.js" />
         <option value="$PROJECT_DIR$/app/views/admin/assos/addEvent.ejs" />
         <option value="$PROJECT_DIR$/app/views/admin/assos/list.ejs" />
         <option value="$PROJECT_DIR$/app/www/assets/css/master.css" />
-        <option value="$PROJECT_DIR$/app/.tmp/localDiskDb.db" />
-        <option value="$PROJECT_DIR$/app/views/assos.ejs" />
-        <option value="$PROJECT_DIR$/app/views/assoView.ejs" />
         <option value="$PROJECT_DIR$/app/api/models/Media.js" />
         <option value="$PROJECT_DIR$/app/api/models/Asso.js" />
         <option value="$PROJECT_DIR$/app/api/controllers/MediaController.js" />
-        <option value="$PROJECT_DIR$/app/config/routes.js" />
         <option value="$PROJECT_DIR$/app/views/admin/assos/add.ejs" />
-        <option value="$PROJECT_DIR$/app/api/controllers/AssoController.js" />
         <option value="$PROJECT_DIR$/app/views/admin/assos/view.ejs" />
         <option value="$PROJECT_DIR$/app/www/assets/css/asso.css" />
+        <option value="$PROJECT_DIR$/app/api/controllers/AssoController.js" />
+        <option value="$PROJECT_DIR$/app/api/controllers/EventController.js" />
+        <option value="$PROJECT_DIR$/app/views/profile.ejs" />
+        <option value="$PROJECT_DIR$/app/www/assets/css/etudiant2.css" />
+        <option value="$PROJECT_DIR$/app/views/student.ejs" />
+        <option value="$PROJECT_DIR$/app/api/controllers/UserController.js" />
+        <option value="$PROJECT_DIR$/app/config/routes.js" />
+        <option value="$PROJECT_DIR$/app/api/models/User.js" />
+        <option value="$PROJECT_DIR$/app/views/layout.ejs" />
+        <option value="$PROJECT_DIR$/app/.tmp/localDiskDb.db" />
+        <option value="$PROJECT_DIR$/app/views/assoView.ejs" />
+        <option value="$PROJECT_DIR$/app/views/assos.ejs" />
+        <option value="$PROJECT_DIR$/app/www/assets/css/assosInternationales.css" />
       </list>
     </option>
   </component>
@@ -375,7 +175,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -393,6 +193,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -543,6 +345,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetTransverse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetTransverse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -611,8 +431,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1074,15 +892,28 @@
       <workItem from="1491303880788" duration="41000" />
       <workItem from="1491764990964" duration="414000" />
       <workItem from="1492672719176" duration="6244000" />
-      <workItem from="1493713696485" duration="22425000" />
+      <workItem from="1493713696485" duration="25004000" />
+      <workItem from="1494316545686" duration="388000" />
+      <workItem from="1494319690551" duration="12000" />
+      <workItem from="1494319777960" duration="1665000" />
+      <workItem from="1494661569509" duration="334000" />
+      <workItem from="1494662037256" duration="1072000" />
     </task>
+    <task id="LOCAL-00001" summary="First version with sails">
+      <created>1493994897579</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1493994897579</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32052000" />
+    <option name="totallyTimeSpent" value="38102000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1121,64 +952,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First version with sails" />
+    <option name="LAST_COMMIT_MESSAGE" value="First version with sails" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/env/production.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/models.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/local.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tasks/register/linkAssets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-523">
           <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,15 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,7 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,23 +1000,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="8" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="69" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/www/index.html" />
     <entry file="file://$PROJECT_DIR$/app/views/login.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,7 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,15 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/profile.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="63" lean-forward="false" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,7 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="38" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="93" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,15 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/www/assets/css/etudiant2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1635">
           <caret line="109" column="14" lean-forward="true" selection-start-line="77" selection-start-column="3" selection-end-line="109" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,15 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="92" column="14" lean-forward="true" selection-start-line="77" selection-start-column="3" selection-end-line="92" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/student.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1330,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,7 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="599">
           <caret line="139" column="4" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,7 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1354,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1362,39 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/controllers/UserController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="82" column="3" lean-forward="false" selection-start-line="82" selection-start-column="3" selection-end-line="90" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/assos/addStudent.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="95" column="65" lean-forward="false" selection-start-line="95" selection-start-column="65" selection-end-line="95" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,6 +1106,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="104" column="23" lean-forward="false" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/assos/list.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.tmp/uploads/0f35a4b4-8d70-434b-8507-a35fe4ebf7ed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/globals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-326">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-776">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/local.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="72" column="54" lean-forward="false" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="15" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/assos/add.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/controllers/MediaController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/assos/addStudent.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/www/assets/css/etudiant2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/models/Media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1422,103 +1201,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/controllers/EventController.js">
+    <entry file="file://$PROJECT_DIR$/app/api/models/Asso.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="360">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/models/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="4" lean-forward="false" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/.tmp/localDiskDb.db">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="578">
+          <caret line="107" column="24" lean-forward="false" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/assos/list.ejs">
+    <entry file="file://$PROJECT_DIR$/app/views/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="70" column="41" lean-forward="false" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/student.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/profile.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/controllers/EventController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="47" />
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/assoView.ejs">
+    <entry file="file://$PROJECT_DIR$/app/api/controllers/UserController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="53" column="32" lean-forward="false" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/.tmp/uploads/0f35a4b4-8d70-434b-8507-a35fe4ebf7ed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/models/Media.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="91" column="19" lean-forward="false" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/controllers/MediaController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/assos/add.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        <state relative-caret-position="615">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/api/controllers/AssoController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="97" column="73" lean-forward="false" selection-start-line="97" selection-start-column="73" selection-end-line="97" selection-end-column="73" />
+        <state relative-caret-position="0">
+          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="236" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/assos.ejs">
+    <entry file="file://$PROJECT_DIR$/app/config/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/models/Asso.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="435">
+          <caret line="29" column="78" lean-forward="false" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/assos/view.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/www/assets/css/assos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1526,7 +1300,31 @@
     <entry file="file://$PROJECT_DIR$/app/www/assets/css/asso.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/assos.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/www/assets/css/assosInternationales.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/assoView.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="65" />
           <folding />
         </state>
       </provider>
