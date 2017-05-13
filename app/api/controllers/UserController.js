@@ -5,7 +5,8 @@
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
 
- var passport = require('passport');
+var passport = require('passport');
+const csv = require('csvtojson');
 
  module.exports = {
 
@@ -134,6 +135,44 @@
        logoutSuccess: true,
        message: 'Déconnexion réussie'
      });
-   }
+   },
+
+   admin_import: function (req, res) {
+
+     if (req.method === 'POST') {
+       csv({
+         delimiter: ';'
+       }).fromString(req.body.payload)
+         .on('json',function (line) {
+
+           User.findOne({mail: line['email'].toString('utf8')}, function(err, user) {
+
+             if(typeof user == 'undefined' || typeof user.id == 'undefined') {
+               User.create({
+                 firstName: line['name'].toString('utf8').substr(0, line['name'].indexOf(' ')),
+                 lastName: line['name'].toString('utf8').substr(line['name'].indexOf(' ')+1, line['name'].length - 1),
+                 mail: line['email'].toString('utf8'),
+                 username: line['name'].toString('utf8').substr(0, line['name'].indexOf(' ')),
+                 password: line['name'].toString('utf8').substr(0, line['name'].indexOf(' ')),
+               }).exec(function(err, created) {
+               });
+             }
+           });
+
+         })
+         .on('done',function (error) {
+           return res.redirect('/students/');
+         });
+
+
+     } else {
+       return res.view('admin/import', {
+         err: '',
+         form: '',
+         user: req.user,
+       });
+     }
+
+   },
 
 };

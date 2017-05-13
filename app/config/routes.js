@@ -183,6 +183,13 @@ module.exports.routes = {
       layout: 'layout'
     }
   },
+  '/admin/user/import': {
+    controller: 'UserController',
+    action: 'admin_import',
+    locals: {
+      layout: 'layout'
+    }
+  },
 
   /***************************************************************************
   *                                                                          *
