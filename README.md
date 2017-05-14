@@ -1,4 +1,4 @@
-**Projet Transverse EFREI P2019**
+# Projet Transverse EFREI P2019
 
 This project was done for the "Projet Transverse" course.
 
