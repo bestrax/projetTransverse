@@ -4,7 +4,7 @@ This project was done for the "Projet Transverse" course.
 
 In order to install, you need to clone this repo. You need to have node and npm installed.
 
-Finally you need to do in the main directory of the project :  
+You need to do in the main directory (app directory) of the project :  
 npm install sails -g  
 npm install  
 
