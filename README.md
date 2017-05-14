@@ -11,4 +11,6 @@ npm install
 Then you can launch it using the following command :  
 node app.js  
 
+You can access the app at http://localhost:1337/
+
 You can see a demo version here : http://transverse.bastien-robert.xyz
