@@ -2,71 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb8e3a0-df33-47bb-a53d-65b22b96b257" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accueil.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assos.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assosInternationales.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assosIweek.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bienvenue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/etudiant.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/etudiant2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/soiree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/team.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/AssosF.png" afterPath="$PROJECT_DIR$/app/assets/css/AssosF.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/assos.css" afterPath="$PROJECT_DIR$/app/assets/css/assos.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/assosInternationales.css" afterPath="$PROJECT_DIR$/app/assets/css/assosInternationales.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/assosIweek.css" afterPath="$PROJECT_DIR$/app/assets/css/assosIweek.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/bienvenue.css" afterPath="$PROJECT_DIR$/app/assets/css/bienvenue.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/etudiant.css" afterPath="$PROJECT_DIR$/app/assets/css/etudiant.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/etudiant2.css" afterPath="$PROJECT_DIR$/app/assets/css/etudiant2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/freshmarker.ttf" afterPath="$PROJECT_DIR$/app/assets/css/freshmarker.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/index.css" afterPath="$PROJECT_DIR$/app/assets/css/index.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/login.css" afterPath="$PROJECT_DIR$/app/assets/css/login.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/master.css" afterPath="$PROJECT_DIR$/app/assets/css/master.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/scyllaf.png" afterPath="$PROJECT_DIR$/app/assets/css/scyllaf.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/soiree.css" afterPath="$PROJECT_DIR$/app/assets/css/soiree.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/team.css" afterPath="$PROJECT_DIR$/app/assets/css/team.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/bibou.jpg" afterPath="$PROJECT_DIR$/app/assets/img/bibou.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/cup.jpg" afterPath="$PROJECT_DIR$/app/assets/img/cup.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/cup2.jpg" afterPath="$PROJECT_DIR$/app/assets/img/cup2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/fb.png" afterPath="$PROJECT_DIR$/app/assets/img/fb.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/fleche2.png" afterPath="$PROJECT_DIR$/app/assets/img/fleche2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/fox.png" afterPath="$PROJECT_DIR$/app/assets/img/fox.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/images.jpg" afterPath="$PROJECT_DIR$/app/assets/img/images.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/koko.jpg" afterPath="$PROJECT_DIR$/app/assets/img/koko.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/lana.png" afterPath="$PROJECT_DIR$/app/assets/img/lana.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/lana2.png" afterPath="$PROJECT_DIR$/app/assets/img/lana2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/linkedin.png" afterPath="$PROJECT_DIR$/app/assets/img/linkedin.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/login.jpg" afterPath="$PROJECT_DIR$/app/assets/img/login.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/login2.png" afterPath="$PROJECT_DIR$/app/assets/img/login2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/logo.png" afterPath="$PROJECT_DIR$/app/assets/img/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/logoAsian.png" afterPath="$PROJECT_DIR$/app/assets/img/logoAsian.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/logoEfreiInter.png" afterPath="$PROJECT_DIR$/app/assets/img/logoEfreiInter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/logoInfitah.png" afterPath="$PROJECT_DIR$/app/assets/img/logoInfitah.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/logoIweek.png" afterPath="$PROJECT_DIR$/app/assets/img/logoIweek.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/mel2.jpg" afterPath="$PROJECT_DIR$/app/assets/img/mel2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/scylla.jpg" afterPath="$PROJECT_DIR$/app/assets/img/scylla.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/scylla3.jpg" afterPath="$PROJECT_DIR$/app/assets/img/scylla3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/scylla4.jpg" afterPath="$PROJECT_DIR$/app/assets/img/scylla4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/app/assets/lib/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/app/assets/lib/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/app/assets/lib/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/app/assets/lib/css/bootstrap-theme.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/css/bootstrap.css" afterPath="$PROJECT_DIR$/app/assets/lib/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/app/assets/lib/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/assets/lib/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/app/assets/lib/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/app/assets/lib/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/app/assets/lib/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/app/assets/lib/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/app/assets/lib/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/app/assets/lib/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/js/bootstrap.js" afterPath="$PROJECT_DIR$/app/assets/lib/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/app/assets/lib/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/lib/js/npm.js" afterPath="$PROJECT_DIR$/app/assets/lib/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/assos/addStudent.ejs" afterPath="$PROJECT_DIR$/app/views/admin/assos/addStudent.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/www/assets/css/assosInternationales.css" afterPath="$PROJECT_DIR$/app/www/assets/css/assosInternationales.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,16 +24,46 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <first_editor relative-caret-position="195">
+                <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assosInternationales.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/www/assets/css/assosInternationales.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="students.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/students.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="73" column="9" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="73" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addStudent.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/assos/addStudent.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="73" column="9" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,7 +99,6 @@
         <option value="$PROJECT_DIR$/assets/css/master.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
         <option value="$PROJECT_DIR$/app/.eslintrc" />
         <option value="$PROJECT_DIR$/app/.babelrc" />
@@ -147,7 +119,6 @@
         <option value="$PROJECT_DIR$/app/views/admin/asso/list.ejs" />
         <option value="$PROJECT_DIR$/app/views/admin/asso/add.ejs" />
         <option value="$PROJECT_DIR$/app/front-app/style/style.scss" />
-        <option value="$PROJECT_DIR$/app/views/admin/assos/addStudent.ejs" />
         <option value="$PROJECT_DIR$/app/api/models/Event.js" />
         <option value="$PROJECT_DIR$/app/views/admin/assos/addEvent.ejs" />
         <option value="$PROJECT_DIR$/app/views/admin/assos/list.ejs" />
@@ -168,12 +139,14 @@
         <option value="$PROJECT_DIR$/app/.tmp/localDiskDb.db" />
         <option value="$PROJECT_DIR$/app/views/assoView.ejs" />
         <option value="$PROJECT_DIR$/app/views/assos.ejs" />
-        <option value="$PROJECT_DIR$/app/www/assets/css/assosInternationales.css" />
         <option value="$PROJECT_DIR$/app/views/admin/import.ejs" />
         <option value="$PROJECT_DIR$/app/config/routes.js" />
         <option value="$PROJECT_DIR$/app/api/controllers/UserController.js" />
         <option value="$PROJECT_DIR$/app/views/students.ejs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/www/assets/css/assosInternationales.css" />
+        <option value="$PROJECT_DIR$/app/views/admin/assos/addStudent.ejs" />
       </list>
     </option>
   </component>
@@ -190,7 +163,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="807" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,8 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,8 +207,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetTransverse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetTransverse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetTransverse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetTransverse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetTransverse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetTransverse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -706,7 +745,9 @@
       <workItem from="1494319777960" duration="1665000" />
       <workItem from="1494661569509" duration="334000" />
       <workItem from="1494662037256" duration="2796000" />
-      <workItem from="1494795829285" duration="330000" />
+      <workItem from="1494795829285" duration="1598000" />
+      <workItem from="1494881762489" duration="3000" />
+      <workItem from="1494881772945" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="First version with sails">
       <created>1493994897579</created>
@@ -743,14 +784,56 @@
       <option name="project" value="LOCAL" />
       <updated>1494796065558</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add missing file">
+      <created>1494796188261</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1494796188261</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add missing file">
+      <created>1494796339221</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1494796339221</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update readme">
+      <created>1494796416535</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1494796416535</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update readme">
+      <created>1494796526003</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1494796526003</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update readme">
+      <created>1494796623036</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1494796623036</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update readme">
+      <created>1494796697288</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1494796697288</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40156000" />
+    <option name="totallyTimeSpent" value="41428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -759,7 +842,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -795,27 +878,15 @@
     <MESSAGE value="Ajout importation utilisateurs" />
     <MESSAGE value="Ajout de la recherche utilisateur" />
     <MESSAGE value="Add readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add readme" />
+    <MESSAGE value="Add missing file" />
+    <MESSAGE value="Update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/lib/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/css/bootstrap-theme.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/www/assets/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -852,13 +923,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etudiant2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="93" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/etudiant2.html" />
     <entry file="file://$PROJECT_DIR$/app/www/assets/css/students.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -866,20 +931,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="14" lean-forward="true" selection-start-line="77" selection-start-column="3" selection-end-line="109" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assosInternationales.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="92" column="14" lean-forward="true" selection-start-line="77" selection-start-column="3" selection-end-line="92" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assos.html" />
+    <entry file="file://$PROJECT_DIR$/assosInternationales.html" />
     <entry file="file://$PROJECT_DIR$/app/front-app/style/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -887,13 +940,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assosIweek.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="139" column="4" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assosIweek.html" />
     <entry file="file://$PROJECT_DIR$/app/www/assets/css/assosIweek.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -983,13 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/assos/addStudent.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/www/assets/css/etudiant2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -1053,13 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/www/assets/css/assosInternationales.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/assoView.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1085,13 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/students.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1141,18 +1167,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/www/assets/css/assosInternationales.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/students.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="9" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="73" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/assos/addStudent.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="73" column="9" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

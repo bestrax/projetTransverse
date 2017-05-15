@@ -10,7 +10,12 @@
 
         <% if (users.length > 0) { %>
 
-        <table class="table table-hover">
+        <div className="form-group label-floating is-empty">
+            <input class="form-control" type="text" id="myInput" onkeyup="tableFilter()" placeholder="Rechercher par nom/prénom...">
+            <br/>
+        </div>
+
+        <table id="userTable" class="table table-hover">
             <thead>
             <tr>
                 <th>Prénom</th>
@@ -42,3 +47,28 @@
     </div>
 
 </div>
+
+<script>
+  function tableFilter() {
+    var input, filter, table, tr, td, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("userTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+
+      td = '';
+      for (var j = 0; j < tr[i].getElementsByTagName("td").length; j++) {
+        td += tr[i].getElementsByTagName("td")[j].innerHTML.toUpperCase() + ' ';
+      }
+
+      if (td) {
+        if (td.match(new RegExp('.*'+filter+'.*'))) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>

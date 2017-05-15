@@ -44,11 +44,11 @@ body {
     cursor: pointer;
     font-family: "Fresh Marker";
     border-radius: 10px;
-    max-height: 20vw;
+    max-height: calc(20vw + 90px);
     max-width: 20vw;
 }
 
 .img-size {
-    width: 100%;
-    max-height: 100%;
+    max-width: 10vw;
+    height: 10vh;
 }
